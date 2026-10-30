@@ -8,24 +8,16 @@
 
 | Что | Ссылка |
 |---|---|
-| Репозиторий проекта | ___ |
-| Сайт на Vercel | ___ |
-| Описание работы `docs/opisanie.md` | ___ |
-| Презентация `presentation/zashchita.pdf` | ___ |
-| Таблица заявок (доступ на просмотр) | ___ |
-| Дашборд DataLens | ___ |
-| Reel с автоответом | ___ |
+| Репозиторий проекта | https://github.com/alcelery/tz-22-kompyuternyy-klub-respawn |
+| Сайт на Vercel | https://tz-22-kompyuternyy-klub-respawn-flax.vercel.app/ |
+| Описание работы `docs/opisanie.md` | ![Описание](opisanie.md) |
+| Презентация `presentation/zashchita.pdf` | ![Презентация](zashchita.pdf) |
+| Таблица заявок (доступ на просмотр) | https://docs.google.com/spreadsheets/d/1KT_y3r5QNzVsVnPtUj1ashW_l2c-rtIuYQ2LIABzJzA/edit?usp=sharing |
+| Reel с автоответом | https://tz-22-kompyuternyy-klub-respawn-flax.vercel.app/reaction.html?utm_source=instagram&utm_medium=social&utm_campaign=respawn_nov_2026&utm_content=reel_reaction_01 |
 
-**Measurement ID ресурса GA4:** G-___
-**Доступ Viewer к ресурсу GA4 выдан:** ___ (e-mail преподавателя)
+**Measurement ID ресурса GA4:** G-FVSBR67M78
+**Доступ Viewer к ресурсу GA4 выдан:** events@respawn-club.example
 
-## Перед отправкой
 
-- [ ] Репозиторий публичный, у него заполнены описание, Website и Topics
-- [ ] README проекта начинается с таблицы ссылок, все ссылки открываются
-- [ ] В `docs/opisanie.md` все кадры на месте, пустых `___` нет
-- [ ] Схема работы лежит в `docs/scheme.png` и есть в презентации
-- [ ] Презентация в PDF, доклад укладывается в 7 минут
-
-**Не получилось:** ___
-**ИИ:** не использовал / использовал для ___
+**Не получилось:** DataLens
+**ИИ:** использовал для создания сайта, корректировки отчетов
