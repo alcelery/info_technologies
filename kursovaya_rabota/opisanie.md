@@ -10,7 +10,7 @@
 
 ## 2. Схема работы
 
-![Схема работы](scheme.png)
+![Схема работы](../screens/scheme.png)
 
 Посетитель приходит из соцсетей или по QR-коду по ссылке с UTM-метками.
 Сайт отправляет события в GA4, а заявку — в Google Таблицу через Apps Script.
@@ -36,48 +36,48 @@ flowchart LR
 Сайт из 10 страниц создан с помощью deepSeek и доработан вручную: Кошиной Александрой.
 Опубликован на Vercel, обновляется после каждого push.
 
-![Главная страница](screens/01-site-home.png)
-![Сайт на телефоне, 375 px](screens/02-site-mobile.png)
-![Lighthouse](screens/lighthouse-mobile.png)
+![Главная страница](../screens/01-site-home.png)
+![Сайт на телефоне, 375 px](../screens/02-site-mobile.png)
+![Lighthouse](../screens/lighthouse-mobile.png)
 
 ## 4. Аналитика GA4
 
 Настроено 20 событий, из них своих — 13. Ключевые события: 3.
 Каждое событие проверено в DebugView.
 
-![События в DebugView](screens/generate_lead.png)
-![Пользовательские параметры](screens/03-custom-definitions.png)
+![События в DebugView](../screens/generate_lead.png)
+![Пользовательские параметры](../screens/03-custom-definitions.png)
 
 ## 5. UTM-ссылки и соцсети
 
 В реестре 12 ссылок, опубликованы в Instagram, Pinterest, Telegram,
 YouTube, у двух партнёров и на афише с QR-кодом.
 
-![Реестр ссылок](screens/registry.png)
-![Источники в Traffic acquisition](screens/traffic-acquisition.png)
+![Реестр ссылок](../screens/registry.png)
+![Источники в Traffic acquisition](../screens/traffic-acquisition.png)
 
 ## 6. Заявки
 
 Форма отправляет заявку в Apps Script, тот проверяет поля и записывает
 строку в лист `leads` вместе с метками. Повторная отправка не создаёт дубль.
 
-![Форма на сайте](screens/04-form.png)
-![Заявка в таблице с метками](screens/05-lead-in-sheet.png)
+![Форма на сайте](../screens/04-form.png)
+![Заявка в таблице с метками](../screens/05-lead-in-sheet.png)
 
 ## 7. Автоответы в Instagram
 
 Комментарий «реакция» под Reel запускает ответ в комментариях и сообщение
 в Direct с кнопкой на сайт. Вторая ветка — слово «турнир».
 
-![Ответ в комментариях](screens/comment-reply.png)
-![Сообщение в Direct с кнопкой](screens/dm-button.png)
+![Ответ в комментариях](../screens/comment-reply.png)
+![Сообщение в Direct с кнопкой](../screens/dm-button.png)
 
 ## 8. Отчёты и дашборд
 
 Воронка показала наибольшую потерю между **page_view** и **booking_calc** (**50 %**).
 Больше всего заявок принёс канал **instagram**.
 
-![Воронка в Explore](screens/voronka_opened.png)
+![Воронка в Explore](../screens/voronka_opened.png)
 
 ## 9. Что получил бизнес
 
